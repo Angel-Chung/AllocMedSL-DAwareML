@@ -26,7 +26,8 @@ Key files/folders under `Experiment/`:
 - `Excel/` — Excel tool baseline inputs/scripts
 - `Distribution/` and `model_distribution.py` — distribution modeling baseline
 - `Global Health (3 Month Rolling Avg)/` — 3-month rolling average baseline
-- `StochOptForest/` — StochOptForest baseline
+- `StochOptForest/` — StochOptForest baseline adapted from Kallus & Mao (2023): Stochastic Optimization Forests, *Management Science*, 69(4), 1975–1994.
+
 
 ---
 
@@ -171,6 +172,8 @@ Finally, run the allocation script:
 ```bash
 python stochForest.py --date 2022-12-01 2023-01-01 2023-02-01 --budgetType Real25
 ```
+> **Note (StochOptForest adaptation):** StochOptForest was originally proposed for settings where each training example corresponds to a standalone optimization problem. Our application has a different structure (a single product-level allocation problem coupled across many facilities and time periods), so we **adapted** the method to be compatible with our pipeline. As a result, observed performance gap could be reflecting *setting mismatch and adaptation constraints*. 
+
 
 ---
 
