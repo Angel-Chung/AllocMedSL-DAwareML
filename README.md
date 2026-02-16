@@ -4,14 +4,31 @@
 [![Gurobi](https://img.shields.io/badge/Gurobi-required-red)](#required-software)
 
 
-This repository contains the **pre-deployment experiment** code and **baseline comparison** code used in **Supplementary Section S1.5.3**.
+This repository contains the **pre-deployment experiment** code and **baseline comparison** code used in **Supplementary Section S1.5.3** of the paper **"Improving Access to Essential Medicines via Decision-Aware Machine Learning."**.
 
 - Code is organized under: `./Experiment/`
 - Required software: **Python 3.9** and **R 4.2.1**
-- Notes:
-  - Several scripts solve optimization problems and may require the **Gurobi** solver. Some scripts can be adapted to use **SciPy**.
-  - Machine learning models may require **hyperparameter tuning** to obtain results similar to the paper.
 
+
+> [!NOTE]
+> - Several scripts solve optimization problems and may require the **Gurobi** solver. Some scripts can be adapted to use **SciPy**.
+> - Machine learning models may require **hyperparameter tuning** to obtain results similar to the paper.
+> - Supply data is perturbed to preserve privacy, which may affect the exact reproduction of results.
+
+---
+## Citation
+
+If you use this code, please cite our paper:
+
+```bibtex
+@article{ChungetalAllocMedSL,
+  title   = {Improving Access to Essential Medicines via Decision-Aware Machine Learning},
+  author  = {},
+  journal = {},
+  year    = {YYYY},
+  doi     = {DOI}
+}
+```
 ---
 
 ## Repository Structure
@@ -195,19 +212,6 @@ This script reads outputs from each method and produces the baseline comparison 
 
 ---
 
-## Citation
-
-If you use this code, please cite our paper:
-
-```bibtex
-@article{ChungetalAllocMedSL,
-  title   = {Improving Access to Essential Medicines via Decision-Aware Machine Learning},
-  author  = {},
-  journal = {},
-  year    = {YYYY},
-  doi     = {DOI}
-}
-```
 
 
 
