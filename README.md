@@ -64,6 +64,9 @@ All required data are provided as a **GitHub Release asset** named:
    - `Experiment/budget2023Q2Scipt_processed.csv`
    - `Experiment/S1_master_facility_update_11.csv`
 
+> [!NOTE]
+> - To protect data privacy, we removed geolocation-related information from the S1 facility dataset to de-identify individual facilities. Facility features are available here: https://data.grid3.org/datasets/GRID3::grid3-sle-health-facilities-v1-0/about
+
 ---
 
 ## Requirements
