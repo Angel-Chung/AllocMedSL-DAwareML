@@ -21,12 +21,12 @@ This repository contains the **pre-deployment experiment** code and **baseline c
 If you use this code, please cite our paper:
 
 ```bibtex
-@article{ChungetalAllocMedSL,
-  title   = {Improving Access to Essential Medicines via Decision-Aware Machine Learning},
-  author  = {},
-  journal = {},
-  year    = {YYYY},
-  doi     = {DOI}
+@article{chung2026improving,
+  title   = {Improving access to essential medicines via decision-aware machine learning},
+  author  = {Chung, A. T. H. and Abdulai, J. and Bayoh, P. and others},
+  journal = {Nature},
+  year    = {2026},
+  doi     = {10.1038/s41586-026-10433-7}
 }
 ```
 ---
